@@ -1,0 +1,55 @@
+{
+  "company_id": "12345",
+  "company_name": "Example Corp",
+  "domain": "examplecorp.com",
+  "industry": "Software",
+  "employee_count": 250,
+  "annual_revenue": 50000000,
+  "location": {
+    "address": "1234 Main St",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "USA",
+    "postal_code": "94105"
+  },
+  "intent_data": {
+    "visit_count": 15,
+    "pages_visited": [
+      {
+        "url": "/pricing",
+        "visit_count": 5
+      },
+      {
+        "url": "/product-features",
+        "visit_count": 7
+      },
+      {
+        "url": "/blog",
+        "visit_count": 3
+      }
+    ],
+    "engagement_score": 75,
+    "intent_signals": [
+      "pricing_page_visits",
+      "product_comparison",
+      "content_engagement"
+    ],
+    "likelihood_to_purchase": "high"
+  },
+  "contact_info": {
+    "key_contacts": [
+      {
+        "name": "John Doe",
+        "title": "CEO",
+        "email": "john.doe@examplecorp.com",
+        "phone": "555-123-4567"
+      },
+      {
+        "name": "Jane Smith",
+        "title": "CTO",
+        "email": "jane.smith@examplecorp.com",
+        "phone": "555-987-6543"
+      }
+    ]
+  }
+}
